@@ -75,7 +75,7 @@ def voice(update: Update, context: CallbackContext):
     result=str(run_alexa(text))
     print(result)
     # send audio
-    if str(text).startswith('play') | str(text).startswith('sing') | 'sing' in str(text):
+    if str(text).startswith('play') or str(text).startswith('sing') or 'sing' in str(text):
         context.bot.send_chat_action(chat_id=update.effective_chat.id, action=telegram.ChatAction.RECORD_VOICE)
         try:
             update.message.reply_audio(result)
