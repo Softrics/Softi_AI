@@ -11,3 +11,5 @@ requests==2.27.1
 SpeechRecognition==3.8.1
 telegram==0.0.1
 wikipedia==1.4.0
+python-telegram-bot==13.10
+opencv-python==4.5.5.62
