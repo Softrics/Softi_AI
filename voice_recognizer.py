@@ -54,7 +54,7 @@ def get_text():
 def run_alexa(text):
     command = text
     print(command)
-    if str(command).startswith('play'):
+    if str(command).startswith('play') | str(command).startswith('sing') | 'sing' in str(command):
         song = command.replace('play', '')
         print(music.fetch(song))
         return music.fetch(song)
