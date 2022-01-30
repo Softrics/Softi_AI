@@ -1,6 +1,5 @@
 import speech_recognition as sr
 import pyttsx3
-import pywhatkit
 import pyjokes
 import webbrowser
 from plugins import time
@@ -38,7 +37,6 @@ def take_command():
     except:
         command = 'sorry'
         return command
-        pass
 
 
 def get_text():
