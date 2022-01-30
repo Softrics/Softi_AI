@@ -53,10 +53,6 @@ Contributions are always welcome!
 - [@Akilesh](https://www.instagram.com)
 
 
-## Feedback
-
-If you have any feedback, please reach out to us at feedbacks@nodeista.com
-
 
 ## Badges
 
