@@ -1,0 +1,13 @@
+beautifulsoup4==4.10.0
+ffmpeg==1.4
+ffmpeg_python==0.2.0
+gTTS==2.2.3
+kit==0.2.15
+pyjokes==0.6.0
+python-dotenv==0.19.2
+pyttsx3==2.90
+pywhatkit==5.3
+requests==2.27.1
+SpeechRecognition==3.8.1
+telegram==0.0.1
+wikipedia==1.4.0
