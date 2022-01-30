@@ -8,6 +8,8 @@ from plugins import voice_api
 from plugins import search
 from plugins import music
 
+listener = sr.Recognizer()
+
 
 
 
