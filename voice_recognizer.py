@@ -9,9 +9,8 @@ from plugins import search
 from plugins import music
 
 listener = sr.Recognizer()
-engine = pyttsx3.init()
-voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[1].id)
+
+
 
 
 def talk(text):
@@ -55,7 +54,7 @@ def get_text():
 def run_alexa(text):
     command = text
     print(command)
-    if str(command).startswith('play'):
+    if str(command).startswith('play') or str(command).startswith('sing') or 'sing' in str(command):
         song = command.replace('play', '')
         print(music.fetch(song))
         return music.fetch(song)

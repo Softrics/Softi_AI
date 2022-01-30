@@ -75,7 +75,7 @@ def voice(update: Update, context: CallbackContext):
     result=str(run_alexa(text))
     print(result)
     # send audio
-    if str(text).startswith('play'):
+    if str(text).startswith('play') or str(text).startswith('sing') or 'sing' in str(text):
         context.bot.send_chat_action(chat_id=update.effective_chat.id, action=telegram.ChatAction.RECORD_VOICE)
         try:
             update.message.reply_audio(result)
@@ -113,7 +113,7 @@ updater.start_polling()
 class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/':
-            self.path = 'new.html'
+            self.path = 'index.html'
         return http.server.SimpleHTTPRequestHandler.do_GET(self)
 
 # Create an object of the above class
