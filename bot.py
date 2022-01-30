@@ -55,12 +55,12 @@ def help(update: Update, context: CallbackContext):
 
 def unknown(update: Update, context: CallbackContext):
     update.message.reply_text(
-        "Sorry '%s' is not a valid command" % update.message.text)
+        "Send me a voice message please")
 
 
 def unknown_text(update: Update, context: CallbackContext):
     update.message.reply_text(
-        "Sorry I can't recognize you , you said '%s'" % update.message.text)
+        "Send me a voice message please")
 
 # recieve voice
 def voice(update: Update, context: CallbackContext):
