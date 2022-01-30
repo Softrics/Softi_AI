@@ -8,6 +8,9 @@ from plugins import voice_api
 from plugins import search
 from plugins import music
 
+listener = sr.Recognizer()
+engine = pyttsx3.init()
+
 
 
 def talk(text):
