@@ -47,25 +47,15 @@ Contributions are always welcome!
 
 ## Authors
 
-- [@Krishnadev P Melevila](https://www.instagram.com/krishnadev_p_melevila/)
 - [@Gautham](https://www.instagram.com/gauthamperfect___/)
-
-
-## Support
-
-For support, email krishnadevpmelevila@gmail.com or join our [Discord communtiy](https://community.nodeista.com).
+- [@Krishnadev P Melevila](https://www.instagram.com/krishnadev_p_melevila/)
+- [@Jerin Manoj](https://www.instagram.com/__.j.e.r.r.y.____/)
+- [@Akilesh](https://www.instagram.com)
 
 
 ## Feedback
 
 If you have any feedback, please reach out to us at feedbacks@nodeista.com
-
-
-## Related
-
-Here are some related projects
-
-[Softi](https://github.com/softricstech/Softi)
 
 
 ## Badges
