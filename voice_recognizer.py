@@ -50,7 +50,7 @@ def get_text():
     except:
         return "Sorry, Please say that again!"
 
-
+# main function
 def run_alexa(text):
     command = text
     print(command)
