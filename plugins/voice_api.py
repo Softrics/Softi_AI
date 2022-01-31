@@ -2,9 +2,9 @@ import requests
 import os
 import json
 def voiceApi(command):
-    url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
+    url = "http://api.brainshop.ai/get"
 
-    querystring = {"bid":"178","key":"sX5A2PcYZbsN5EY6","uid":"mashape","msg":command}
+    querystring = {"bid":"163338","key":os.environ.get("BRAIN_KEY"),"uid":"mashape","msg":command}
 
     headers = {
         'x-rapidapi-host': "acobot-brainshop-ai-v1.p.rapidapi.com",
