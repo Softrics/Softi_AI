@@ -1,4 +1,7 @@
 import datetime
+import pytz
 def plugin_time():
-    time = datetime.datetime.now().strftime('%I:%M %p')
+    timezone = pytz.timezone('Asia/Kolkata')
+    time = datetime.datetime.now(timezone).strftime('%I:%M %p')
     return 'The time is ' + time
+print(plugin_time())

@@ -66,4 +66,4 @@ def run_alexa(text):
         return hello.hello()
     else:
         return voice_api.voiceApi(command)
-        
+    
