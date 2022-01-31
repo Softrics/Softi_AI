@@ -13,4 +13,6 @@ def voiceApi(command):
 
     response = requests.request("GET", url, headers=headers, params=querystring)
     result=json.loads(response.text)
+    if result['cnt']=='':
+        return "Sorry, I am still learning, I will answer this soon!"
     return result['cnt']
